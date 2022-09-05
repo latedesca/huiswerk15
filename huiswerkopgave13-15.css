@@ -29,6 +29,7 @@ li{
   margin-right: 5%;
   text-align: center;
   color: yellow;
+  font-weight: normal;
 }
 li:hover{
   font-weight: bold;
