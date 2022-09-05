@@ -1,0 +1,111 @@
+html{
+  background-color: LemonChiffon;
+}
+ul{
+  background-color: green;
+}
+ul a{
+  color: yellow;
+  text-decoration: none;
+}
+body{
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin: 0.5% 2%;
+}
+header, body, footer{
+  padding: 5px;
+}
+li{
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+  padding: 10px;
+  margin-right: 260px;
+  text-align: center;
+  color: yellow;
+}
+#contact{
+  margin-right: 60px;
+}
+li:hover{
+  font-weight: bold;
+  color: orange;
+  background-color: purple;
+}
+img{
+  height: 200px;
+  width: 300px;
+}
+h1{
+  text-align: center;
+}
+table{
+  width: 100%;
+}
+table, th, td{
+  border: 1px solid;
+  border-color: lightblue;
+}
+td, th{
+  margin: 10px 10px;
+  width: 350px;
+  text-align: left;
+}
+th{
+  padding: 10px 0px;
+}
+caption{
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+}
+#werkervaring{
+  color: Blue;
+  background-color: LightSteelBlue;
+}
+#opleiding{
+  color: DarkMagenta;
+  background-color: Thistle;
+}
+#indexbody{
+  background-color: Wheat;
+}
+#mijncvbody{
+  background-color: AliceBlue;
+}
+#contactbody{
+  background-color: MidnightBlue;
+  color: Fuchsia;
+  font-family: Verdana;
+  font-weight: bold;
+}
+form{
+  display: inline-block;
+  text-align: center;
+}
+#contactbutton{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+  display: block;
+  margin: 15px 0px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+textarea{
+  height: 200px;
+  background-color: lightblue;
+}
+button:active{
+  background-color: lightgreen;
+  color: red;
+  font-weight: bold;
+}
